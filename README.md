@@ -1,8 +1,8 @@
 # Autism Spectrum Disorder Detection Using XAI
 
-This project leverages machine learning and Explainable Artificial Intelligence (XAI) techniques to detect Autism Spectrum Disorder (ASD) image data. By prioritizing transparency and interpretability, the models aim to empower clinicians with actionable insights, enhancing diagnostic accuracy and consistency.
+This project leverages machine learning and Explainable Artificial Intelligence (XAI) techniques to detect Autism Spectrum Disorder (ASD) Tabular data. By prioritizing transparency and interpretability, the models aim to empower clinicians with actionable insights, enhancing diagnostic accuracy and consistency.
 
-[Download The dataset Here](https://drive.google.com/drive/folders/1xDc_AgkMXEJ2vIhiduWB-6jg5CW3iaw8?usp=sharing)
+The data is included in the repo Adult_ASD.csv
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -35,7 +35,5 @@ First, clone the repository to your local machine:
 # go inside the repo then run the commands
 #create virtual environment
 python3 -m venv .venv
-#for windows
-.venv\Scripts\activate
-pip install -r requirements.txt
+#run the notebook will automatically download the dependencies required
 ```
